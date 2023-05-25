@@ -6,7 +6,7 @@
 /*   By: wcista <wcista@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 23:35:16 by wcista            #+#    #+#             */
-/*   Updated: 2023/05/19 03:10:40 by wcista           ###   ########.fr       */
+/*   Updated: 2023/05/19 15:27:30 by wcista           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	ft_putnbr(int n)
 		len += ft_putnbr(n % 10);
 	}
 	else
-		len += ft_putchar (n + '0');
+		len += ft_putchar(n + '0');
 	return (len);
 }
 
